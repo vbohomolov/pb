@@ -1,0 +1,194 @@
+{
+    "babel_item_type": "return",
+    "server_id": "10590108",
+    "server_tag": "tag1YKnbw3MWaqI",
+    "value": [
+        {
+            "h": {
+                "execute_duration": 0.004866,
+                "value": {
+                    "class": "Shopping.Basket",
+                    "id": "instance-9001218370648",
+                    "props": {
+                        "currency": {
+                            "class": "Shopping.Currency",
+                            "id": "instance-9001",
+                            "props": {
+                                "decimal_separator": ".",
+                                "name": "GBP",
+                                "symbol": "?",
+                                "symbol_html": "&#xa3;",
+                                "symbol_placement": "before"
+                            }
+                        },
+                        "delivery_product": "",
+                        "delivery_product_id": "0",
+                        "free_delivery": 0,
+                        "id": "1218370648",
+                        "offer_product_id": "0",
+                        "printcredit_usage": "enabled",
+                        "prospective_optimistic_despatch_datetime": "2015-02-10 18:30:00",
+                        "prospective_pessimistic_despatch_datetime": "2015-02-10 18:30:00"
+                    }
+                }
+            }
+        },
+        {
+            "h": {
+                "execute_duration": 0.010792,
+                "value": {
+                    "h": {
+                        "accountpaymentneeded": 0,
+                        "billtoaccount": "&#xa3;0.00",
+                        "billtocard": "&#xa3;12.98",
+                        "cardpaymentneeded": 1,
+                        "cashaccountbalance": "&#xa3;0.00",
+                        "freecount": 0,
+                        "itemcount": "1",
+                        "linecount": "1",
+                        "monetary_discount": "&#xa3;0.00",
+                        "monetary_discount_used": 0,
+                        "offer": "&#xa3;0.00",
+                        "offername": "",
+                        "points": "1",
+                        "shipping": "&#xa3;2.99",
+                        "shippingname": "Standard 2-4 days (UK)",
+                        "subtotal": "&#xa3;9.99",
+                        "subtotal_inc_shipping": "&#xa3;12.98",
+                        "total": "&#xa3;12.98",
+                        "total_undiscounted": "&#xa3;12.98",
+                        "vat": "&#xa3;0.00",
+                        "weight": "1"
+                    }
+                }
+            }
+        },
+        {
+            "h": {
+                "execute_duration": 0.00565,
+                "value": [
+                    {
+                        "class": "Shopping.BasketItem",
+                        "id": "instance-9001219872913",
+                        "props": {
+                            "allow_printcredits": "1",
+                            "creation_name": "test",
+                            "creation_page_count": "2",
+                            "creation_price_details_view": {
+                                "h": {
+                                    "base_price_formatted": "?9.99",
+                                    "options": {
+                                        "h": {
+                                            "15376": {
+                                                "h": {
+                                                    "price_formatted": "?0.00",
+                                                    "product": {
+                                                        "class": "Shopping.Product",
+                                                        "id": "instance-90015376",
+                                                        "props": {
+                                                            "base_pages": "0",
+                                                            "description": "Matte",
+                                                            "despatch_time_info": "",
+                                                            "id": "15376",
+                                                            "longdescription": "",
+                                                            "name": "Regular paper",
+                                                            "unit_price_inc_money": "GBP 0.00"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "15380": {
+                                                "h": {
+                                                    "price_formatted": "?0.00",
+                                                    "product": {
+                                                        "class": "Shopping.Product",
+                                                        "id": "instance-90015380",
+                                                        "props": {
+                                                            "base_pages": "0",
+                                                            "description": "White",
+                                                            "despatch_time_info": "",
+                                                            "id": "15380",
+                                                            "longdescription": "",
+                                                            "name": "White envelope",
+                                                            "unit_price_inc_money": "GBP 0.00"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "currency": {
+                                "class": "Shopping.Currency",
+                                "id": "instance-9001",
+                                "props": {
+                                    "decimal_separator": ".",
+                                    "name": "GBP",
+                                    "symbol": "?",
+                                    "symbol_html": "&#xa3;",
+                                    "symbol_placement": "before"
+                                }
+                            },
+                            "free_quantity": "0",
+                            "has_upsells": "0",
+                            "id": "1219872913",
+                            "is_affected_by_offer": "0",
+                            "is_unlinked_upsell": "0",
+                            "line_price_inc_money": "GBP 9.99",
+                            "offer_id": "0",
+                            "photo_attributes": {
+                                "h": {}
+                            },
+                            "photo_height": "2193",
+                            "photo_quantities": {
+                                "h": {
+                                    "8513032855": "1"
+                                }
+                            },
+                            "photo_width": "5408",
+                            "printcredit_usage": "enabled",
+                            "product": {
+                                "class": "Shopping.Product",
+                                "id": "instance-90011300",
+                                "props": {
+                                    "base_pages": "0",
+                                    "description": "",
+                                    "despatch_time_info": "Same day dispatch! Orders received before 2pm will be dispatched the same working day.",
+                                    "id": "11300",
+                                    "longdescription": "",
+                                    "name": "10 A6 Flat cards",
+                                    "unit_price_inc_money": "GBP 9.99"
+                                }
+                            },
+                            "product_id": "11300",
+                            "product_name": "10 A6 Flat cards",
+                            "product_type": "creation",
+                            "quantity": "1",
+                            "style_id": "20353",
+                            "style_name": "Gloss",
+                            "thumbnail_url": "http://img4021.photobox.co.uk/3984157195b94f32f74da441cab4dff0ccd7a0e773fc35e6581d8a25e36a4d47b3a63ea7.jpg",
+                            "unit_price_money": "GBP 9.99",
+                            "upsell_from": "0",
+                            "upsell_qualifier": "0",
+                            "upsell_result": "0",
+                            "upsell_to": []
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "h": {
+                "execute_duration": 0.001745,
+                "value": []
+            }
+        },
+        {
+            "h": {
+                "execute_duration": 0.002458,
+                "value": []
+            }
+        }
+    ]
+}

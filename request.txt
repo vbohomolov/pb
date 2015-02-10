@@ -1,0 +1,99 @@
+{
+	"babel_item_type": "call",
+	"session_code" : "886f6a82a2762c69088ca40ea8c78d71",
+    "client_id" : "boxtop:basket",
+	"method_name" : "Admin.Babel.MultiCall",
+    "arguments" : {
+	     "h" : {
+		     "calls" : [
+			     { "h" : { "method_name" : "Shopping.Basket.Fetch", "invocant_id" : "1218370648", "arguments" : { "h" : {} } } },
+			     { "h" : { "method_name" : "Shopping.Basket.GetTotals", "invocant_id" : "1218370648", "arguments" : { "h" : {} } } },
+                 { "h" : { "method_name" : "Shopping.Basket.GetItemList", "invocant_id" : "1218370648", "arguments" : { "h" : {} } } },
+                 { "h" : { "method_name" : "Shopping.Basket.GetProductLineList", "invocant_id" : "1218370648", "arguments" : {
+                    "h" : {
+                        "select_by" :
+                            { "h" : { "product_type" : [ "photoprint", "poster" ] } }
+                          }
+                    }
+                } },
+                { "h" : { "method_name" : "Shopping.Basket.GetItemList", "invocant_id" : "1218370648", "arguments" : {
+                    "h" : {
+                        "select_by" : {
+                            "h" : { "line_type" : "delivery", "product_type": "delivery_surcharge"}
+                        }
+                    }
+                } } }
+		     ],
+             "object_property_filter" : {
+                 "h" : {
+                     "Shopping.Basket": {
+                         "h" : {
+                             "id" : "t",
+                             "offer_product_id" : "t",
+                             "prospective_optimistic_despatch_datetime" : "t",
+                             "prospective_pessimistic_despatch_datetime" : "t",
+	                         "currency" : "t",
+	                         "free_delivery" : "t",
+	                         "printcredit_usage" : "t",
+	                         "delivery_product_id" : "t",
+                             "delivery_product": "t"
+                         }
+                     },
+                      "Shopping.BasketItem": {
+                        "h" : {
+                          "id" : "t",
+                          "product_type" : "t",
+                          "product_name" : "t",
+                          "line_price_inc_money" : "t",
+                          "quantity" : "t",
+                          "creation_name" : "t",
+                          "thumbnail_url" : "t",
+                          "creation_price_details_view" : "t",
+                          "unit_price_money" : "t",
+                          "currency" : "t",
+                          "product_id" : "t",
+                          "product" : "t",
+                          "creation_page_count" : "t",
+                          "offer_id" : "t",
+                          "is_unlinked_upsell" : "t",
+                          "upsell_from" : "t",
+                          "upsell_to" : "t",
+                          "has_upsells" : "t",
+                          "upsell_result" : "t",
+                          "upsell_qualifier" : "t",
+                          "is_affected_by_offer" : "t",
+                          "style_name" : "t",
+                          "style_id" : "t",
+                          "free_quantity" : "t",
+                          "photo_attributes" : "t",
+                          "photo_height" : "t",
+                          "photo_width" : "t",
+                          "allow_printcredits" : "t",
+                          "printcredit_usage" : "t",
+                          "photo_quantities" : "t"
+                        }
+                      },
+					  "Shopping.Product" : {
+						"h" : {
+						"base_pages" : "t",
+						"unit_price_inc_money" : "t",
+						"id" : "t",
+						"name" : "t",
+                        "longdescription": "t",
+                        "despatch_time_info": "t",
+                        "description": "t"
+						}
+                      },
+"Shopping.Currency" : {
+"h" : {
+"name" : "t",
+"symbol" : "t",
+"symbol_html" : "t",
+"decimal_separator" : "t",
+"symbol_placement" : "t"
+}
+}                 }
+             }
+	     }
+    }
+}
